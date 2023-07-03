@@ -1,0 +1,87 @@
+<html>
+
+<head>
+
+    <title>Sign up</title>
+    <script type="module">
+        // Import the functions you need from the SDKs you need import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js"; // TODO: Add SDKs for Firebase products that you want to use // https://firebase.google.com/docs/web/setup#available-libraries
+    </script>
+    <link rel="stylesheet" href="../assets/CSS/SignUpStyleSheet.css">
+    <link rel="icon" href="../assets/Image/Logo.png">
+</head>
+
+<body background="../assets/Image/background.jpg">
+    <div class="container">
+        <form id="form1">
+            <h3>SignUp</h3>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <div class="btn-box">
+                <button type="button" id="next1" class="buttonClass">Next</button>
+                <p>Already have an account? <a href="../Pages/index.html">Log in</a></p>
+            </div>
+        </form>
+        <form id="form2">
+            <h3>Pesonal info</h3>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="text" placeholder="Mobile No." required>
+
+            <div class="btn-box">
+                <button type="button" id="back1" class="buttonClass">Back</button>
+                <button type="button" id="next2" class="buttonClass">Next</button>
+                <p>Already have an account? <a href="../Pages/index.html">Log in</a></p>
+            </div>
+        </form>
+
+        <form id="form3">
+            <h3>Health info</h3>
+            <input type="text" placeholder="Height" required>
+            <input type="text" placeholder="Weight" required>
+            <textarea placeholder="Health diseases" name="" id="" cols="30" rows="3"></textarea>
+            <div class="btn-box">
+                <button type="button" id="back2" class="buttonClass">Back</button>
+                <button type="button" id="next3" class="buttonClass">Next</button>
+                <p>Already have an account? <a href="../Pages/index.html">Log in</a></p>
+            </div>
+        </form>
+        <form id="form4">
+            <h3>Payment</h3>
+            <img src="../assets/Image/icons/visa-credit-card.png">
+            <input type="text" placeholder="Credit Card Number" required>
+            <input type="text" placeholder="Credit Card Name" required>
+            <input type="month">
+            <input type="text" placeholder="CVV/CVC *" required>
+            <div class="btn-box">
+                <button type="button" id="back3" class="buttonClass">Back</button>
+                <button type="submit" id="SubmitId" class="buttonClass">Submit</button>
+                <p>Already have an account? <a href="../Pages/index.html">Log in</a></p>
+            </div>
+
+        </form>
+
+        <div class="step-row">
+            <div id="progress">
+
+            </div>
+            <div class="step-col">
+                <small>Step 1</small>
+            </div>
+            <div class="step-col">
+                <small>Step 2</small>
+            </div>
+            <div class="step-col">
+                <small>Step 3</small>
+            </div>
+            <div class="step-col">
+                <small>Step 4</small>
+            </div>
+
+        </div>
+    </div>
+    <script src="../assets/JavaScript/Signup.js"></script>
+</body>
+
+
+</html>

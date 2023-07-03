@@ -1,0 +1,50 @@
+body {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.chip {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    width: 50%;
+    height: 80%;
+    padding: 0 25px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #1d5f5c, #06ff06);
+}
+
+.chip img {
+    float: left;
+    position: relative;
+    margin: 0 10px 0 -25px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#deleteImgs {
+    cursor: pointer;
+}
+
+.EditImgs {
+    position: absolute;
+    top: 160px;
+    left: 665px;
+}
+
+#imgId {
+    position: absolute;
+    top: 10px;
+    left: 680px;
+}
+
+#files {
+    position: absolute;
+    top: 140px;
+    left: 665px;
+    color: transparent;
+}

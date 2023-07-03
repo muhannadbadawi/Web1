@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <link rel="icon" href="../assets/Image/Logo.png">
+    <link rel="stylesheet" href="../assets/CSS/CoachStyleSheet.css">
+    <title>Coach</title>
+</head>
+
+<body background="../assets/Image/background.jpg">
+    <span id="LinesId">&#8214;</span>
+    <div id="sidebar">
+
+        <div id="divId">
+            <p id="CoachId"></p>
+        </div>
+        <pre class="x" onclick="HomeButton()"><img src="../assets/Image/icons/home.png"> Home</pre>
+        <pre class="x" onclick="SettingButton()"><img src="../assets/Image/icons/setting.png"> Setting</pre>
+        <pre class="x" onclick="PlayersButton()"><img src="../assets/Image/icons/user.png"> Players</pre>
+        <pre class="x" onclick="AboutButton()"><img src="../assets/Image/icons/info.png"> About</pre>
+        <a class="out" href="index.html"><img src="../assets/Image/icons/logout.png"> Logout</a>
+
+    </div>
+    <div class="main">
+
+        <div id='About'>
+
+            <h1 id="h1About">About</h1>
+            <h3 id="h3About">This website was developed by Muhannad badawi and Ahmad salah .</h3>
+            <h3 id="h3About"> This website was developed to serve the customers of this GYM .</h3>
+            <div id="Location">
+                <img src="../assets/Image/qrcode.png" alt="https://goo.gl/maps/TuDRe8YtqnjhdHDs8">
+                <a href="https://goo.gl/maps/TuDRe8YtqnjhdHDs8">My Location</a>
+            </div>
+        </div>
+        <div id='Setting'>
+            <h1 id="h1About">Setting</h1>
+            <p id="imgId"></p>
+            <input type="file" id="files">
+            <p id="state"></p>
+            <div class="EditImgs">
+                <a id="deleteImgs">Delete Images</a>
+            </div>
+
+        </div>
+        <div id='Players'>
+            <h1 id="h1About">Players</h1>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th></th>
+                    <th>Subscription</th>
+                </tr>
+                <tr>
+                    <td>11000</td>
+                    <td>Ali</td>
+                    <td>60 Days</td>
+                </tr>
+                <tr>
+                    <td>11500</td>
+                    <td>Ahmad</td>
+                    <td>30 Days</td>
+                </tr>
+                <tr>
+                    <td>11660</td>
+                    <td>Khalid</td>
+                    <td>10 Days</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="../assets/JavaScript/Coach.js"></script>
+</body>
+
+</html>
